@@ -1,5 +1,6 @@
 {
   "app": "vectorcraft",
   "upstream": "storytold/vectorcraft",
-  "name": "NERDS Vector"
+  "name": "NERDS Vector",
+  "upstream_name": "VectorCraft"
 }
