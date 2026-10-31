@@ -1,0 +1,9 @@
+total 516692
+-rw-r--r-- 1 runner runner       425 Oct 31 06:37 SHA256SUMS.txt
+-rw-r--r-- 1 runner runner 155053151 Oct 31 06:37 vectorcraft-0.19.0-macos-universal.dmg
+-rw-r--r-- 1 runner runner 142280638 Oct 31 06:37 vectorcraft-0.19.0-windows-x64-portable.zip
+-rw-r--r-- 1 runner runner 114282496 Oct 31 06:37 vectorcraft-0.19.0-windows-x64.msi
+-rw-r--r-- 1 runner runner 117467759 Oct 31 06:37 vectorcraft-cli-0.19.0-macos-universal.zip
+43474 /home/runner/work/_temp/notes.md
+https://github.com/nerds-coach/nerds-vector/releases/tag/untagged-0bf5df2dbd0a2a09a5ae
+https://github.com/nerds-coach/nerds-vector/releases/tag/v0.19.0
