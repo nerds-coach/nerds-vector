@@ -1,0 +1,229 @@
+NERDS names: 214 changes, 13 kept, 0 warnings
+
+rust  apps/vectorcraft-cli/src/main.rs:67  '\\\nvectorcraft-cli — VectorCraft automation\n\nUSAGE:\n  vectorcraft-cli mcp [--connect ADDR |' -> '\\\nvectorcraft-cli — NERDS Vector automation\n\nUSAGE:\n  vectorcraft-cli mcp [--connect ADDR '
+rust  apps/vectorcraft-cli/src/main.rs:349  'The PDF embeds the native VectorCraft document as an attachment (preserveEditing).' -> 'The PDF embeds the native NERDS Vector document as an attachment (preserveEditing).'
+rust  apps/vectorcraft-cli/src/perf.rs:363  'VectorCraft performance budgets — {n} paths, {cores} cores, {label} {}' -> 'NERDS Vector performance budgets — {n} paths, {cores} cores, {label} {}'
+rust  apps/vectorcraft/build.rs:16  'VectorCraft' -> 'NERDS Vector'
+rust  apps/vectorcraft/build.rs:17  'VectorCraft vector illustration editor' -> 'NERDS Vector vector illustration editor'
+rust  apps/vectorcraft/build.rs:18  'Learning Machines LLC' -> 'NERDS Craft'
+rust  apps/vectorcraft/src/app.rs:97  'The graphics device was lost: unsaved changes are kept for Data Recovery. Save your docume' -> 'The graphics device was lost: unsaved changes are kept for Data Recovery. Save your docume'
+rust  apps/vectorcraft/src/app.rs:99  'The graphics device was lost: save your documents and restart VectorCraft' -> 'The graphics device was lost: save your documents and restart NERDS Vector'
+rust  apps/vectorcraft/src/clipboard.rs:512  'the system clipboard is unavailable ({why}): Copy and Paste stay inside VectorCraft' -> 'the system clipboard is unavailable ({why}): Copy and Paste stay inside NERDS Vector'
+rust  apps/vectorcraft/src/gpu.rs:675  "{START_FILE}: another VectorCraft is starting, so this start isn't recorded" -> "{START_FILE}: another NERDS Vector is starting, so this start isn't recorded"
+rust  apps/vectorcraft/src/main.rs:107  '\\\nUsage: vectorcraft [options] [files…]\n\nOpens the VectorCraft desktop app with the given ' -> '\\\nUsage: vectorcraft [options] [files…]\n\nOpens the NERDS Vector desktop app with the given'
+rust  apps/vectorcraft/src/main.rs:201  'VectorCraft {}, log file {}' -> 'NERDS Vector {}, log file {}'
+kept  apps/vectorcraft/src/main.rs:350  linux_stylus::run_native("VectorCraft", options, app_creator)
+kept  apps/vectorcraft/src/main.rs:354  eframe::run_native("VectorCraft", options, app_creator)
+rust  apps/vectorcraft/src/main.rs:419  "The graphics processor tried first couldn't show the window, so VectorCraft started again " -> "The graphics processor tried first couldn't show the window, so NERDS Vector started again"
+rust  apps/vectorcraft/src/main.rs:424  'The last start of VectorCraft ended on {name} before its window appeared, so it started on' -> 'The last start of NERDS Vector ended on {name} before its window appeared, so it started o'
+rust  apps/vectorcraft/src/main.rs:427  'The last start of VectorCraft ended while it listed the graphics processors, so it started' -> 'The last start of NERDS Vector ended while it listed the graphics processors, so it starte'
+rust  apps/vectorcraft/src/main.rs:483  'VectorCraft stopped: {e}' -> 'NERDS Vector stopped: {e}'
+rust  apps/vectorcraft/src/prefs.rs:6  'VectorCraft' -> 'NERDS Vector'
+rust  apps/vectorcraft/src/prefs_dir.rs:22  'VectorCraft' -> 'NERDS Vector'
+rust  apps/vectorcraft/src/prefs_dir.rs:33  'VectorCraft' -> 'NERDS Vector'
+rust  apps/vectorcraft/src/profile.rs:50  'VectorCraft' -> 'NERDS Vector'
+rust  apps/vectorcraft/src/titlebar.rs:108  'VectorCraft' -> 'NERDS Vector'
+rust  crates/affinity/src/overlay.rs:102  "overlay effects in a blend mode VectorCraft doesn't have (imported as Normal)" -> "overlay effects in a blend mode NERDS Vector doesn't have (imported as Normal)"
+rust  crates/color/src/cms.rs:33  'VectorCraft Generic CMYK (SWOP-like)' -> 'NERDS Vector Generic CMYK (SWOP-like)'
+rust  crates/color/src/palette_io.rs:41  'VectorCraft Swatches (.vcswatches)' -> 'NERDS Vector Swatches (.vcswatches)'
+rust  crates/color/src/palette_io.rs:244  'VectorCraft reads at most {ASE_MAX_ENTRIES} colors and groups from a swatch exchange file,' -> 'NERDS Vector reads at most {ASE_MAX_ENTRIES} colors and groups from a swatch exchange file'
+rust  crates/effects/src/catalog.rs:304  '{pencilWidth: 1..24 (5; stroke spacing in document units), strokePressure: 0..15 (5; how h' -> '{pencilWidth: 1..24 (5; stroke spacing in document units), strokePressure: 0..15 (5; how h'
+rust  crates/effects/src/catalog.rs:311  '{levels: 2..8 (4; steps per colour channel: more levels, more flat colours), edgeSimplicit' -> '{levels: 2..8 (4; steps per colour channel: more levels, more flat colours), edgeSimplicit'
+rust  crates/effects/src/catalog.rs:318  '{brushSize: 1..10 (2; length of the brush strokes), brushDetail: 0..10 (10; more detail ke' -> '{brushSize: 1..10 (2; length of the brush strokes), brushDetail: 0..10 (10; more detail ke'
+rust  crates/effects/src/catalog.rs:325  '{grain: 0..20 (4; monochrome noise in shadows and midtones), highlightArea: 0..20 (0; wide' -> '{grain: 0..20 (4; monochrome noise in shadows and midtones), highlightArea: 0..20 (0; wide'
+rust  crates/effects/src/catalog.rs:332  '{brushSize: 1..10 (2; wider brush dabs), brushDetail: 0..10 (10; sharper edges and less sm' -> '{brushSize: 1..10 (2; wider brush dabs), brushDetail: 0..10 (10; sharper edges and less sm'
+rust  crates/effects/src/catalog.rs:339  '{glowSize: -24..24 (5; above 0 the light areas glow, below 0 the dark ones; farther from 0' -> '{glowSize: -24..24 (5; above 0 the light areas glow, below 0 the dark ones; farther from 0'
+rust  crates/effects/src/catalog.rs:346  '{brushSize: 1..50 (10; dab centres farther apart), sharpness: 0..40 (25; harder dab edges)' -> '{brushSize: 1..50 (10; dab centres farther apart), sharpness: 0..40 (25; harder dab edges)'
+rust  crates/effects/src/catalog.rs:353  '{strokeSize: 1..50 (10; length of the knife strokes in document units), strokeDetail: 1..3' -> '{strokeSize: 1..50 (10; length of the knife strokes in document units), strokeDetail: 1..3'
+rust  crates/effects/src/catalog.rs:360  '{highlightStrength: 0..20 (20; brighter specular highlights), detail: 0..15 (12; finer wri' -> '{highlightStrength: 0..20 (20; brighter specular highlights), detail: 0..15 (12; finer wri'
+rust  crates/effects/src/catalog.rs:367  '{edgeThickness: 0..10 (2; wider lines), edgeIntensity: 0..10 (1; darker lines, on fainter ' -> '{edgeThickness: 0..10 (2; wider lines), edgeIntensity: 0..10 (1; darker lines, on fainter '
+rust  crates/effects/src/catalog.rs:374  '{strokeLength: 0..40 (6; longer pastel strokes), strokeDetail: 1..20 (10; bristle texture ' -> '{strokeLength: 0..40 (6; longer pastel strokes), strokeDetail: 1..20 (10; bristle texture '
+rust  crates/effects/src/catalog.rs:389  '{strokeLength: 0..10 (2; length of the short diagonal strokes), highlightArea: 0..20 (12; ' -> '{strokeLength: 0..10 (2; length of the short diagonal strokes), highlightArea: 0..20 (12; '
+rust  crates/effects/src/catalog.rs:396  "{brushSize: 0..10 (2; size of the sponge's pores), definition: 0..25 (12; how strongly lig" -> "{brushSize: 0..10 (2; size of the sponge's pores), definition: 0..25 (12; how strongly lig"
+rust  crates/effects/src/catalog.rs:403  '{brushSize: 0..40 (6; wider, softer strokes), textureCoverage: 0..40 (16; more of the reli' -> '{brushSize: 0..40 (6; wider, softer strokes), textureCoverage: 0..40 (16; more of the reli'
+rust  crates/effects/src/catalog.rs:418  '{brushDetail: 1..14 (9; the larger, the more detail stays), shadowIntensity: 0..10 (1; dee' -> '{brushDetail: 1..14 (9; the larger, the more detail stays), shadowIntensity: 0..10 (1; dee'
+rust  crates/effects/src/catalog.rs:523  '{detail: 1..15 (13; the larger, the finer the features that stay), smoothness: 1..15 (3; r' -> '{detail: 1..15 (13; the larger, the finer the features that stay), smoothness: 1..15 (3; r'
+rust  crates/effects/src/catalog.rs:530  '{chalkArea: 0..20 (6; chalk in light areas), charcoalArea: 0..20 (6; charcoal in dark area' -> '{chalkArea: 0..20 (6; chalk in light areas), charcoalArea: 0..20 (6; charcoal in dark area'
+rust  crates/effects/src/catalog.rs:537  "{thickness: 1..7 (1; width of the bold edges and of the strokes' spacing), detail: 0..5 (1" -> "{thickness: 1..7 (1; width of the bold edges and of the strokes' spacing), detail: 0..5 (1"
+rust  crates/effects/src/catalog.rs:544  '{detail: 0..10 (4; finer surface texture), smoothness: 0..10 (4; softer relief before the ' -> '{detail: 0..10 (4; finer surface texture), smoothness: 0..10 (4; softer relief before the '
+rust  crates/effects/src/catalog.rs:551  '{foregroundLevel: 0..20 (12; how far the black crayon reaches from the shadows into the mi' -> '{foregroundLevel: 0..20 (12; how far the black crayon reaches from the shadows into the mi'
+rust  crates/effects/src/catalog.rs:573  "{size: pt 1..12 (1; how far apart the screen's dots, rings or lines are), contrast: 0..50 " -> "{size: pt 1..12 (1; how far apart the screen's dots, rings or lines are), contrast: 0..50 "
+rust  crates/effects/src/catalog.rs:580  '{imageBalance: 0..50 (25; lower tones darken the emboss, higher lighten it), graininess: 0' -> '{imageBalance: 0..50 (25; lower tones darken the emboss, higher lighten it), graininess: 0'
+rust  crates/effects/src/catalog.rs:587  '{detail: 1..24 (7; the larger, the finer the features that copy), darkness: 1..50 (25; the' -> '{detail: 1..24 (7; the larger, the finer the features that copy), darkness: 1..50 (25; the'
+rust  crates/effects/src/catalog.rs:594  '{imageBalance: 1..50 (20; higher values sink more of the image), smoothness: 1..15 (8; hig' -> '{imageBalance: 1..50 (20; higher values sink more of the image), smoothness: 1..15 (8; hig'
+rust  crates/effects/src/catalog.rs:601  '{density: 0..50 (12; finer grain at higher values), foregroundLevel: 0..50 (6; pulls shado' -> '{density: 0..50 (12; finer grain at higher values), foregroundLevel: 0..50 (6; pulls shado'
+rust  crates/effects/src/catalog.rs:608  '{lightDarkBalance: 0..50 (25; the larger, the more of the object prints black), smoothness' -> '{lightDarkBalance: 0..50 (25; the larger, the more of the object prints black), smoothness'
+rust  crates/effects/src/catalog.rs:615  '{imageBalance: 0..50 (25; lower leaves more midtones as ink, higher as paper), smoothness:' -> '{imageBalance: 0..50 (25; lower leaves more midtones as ink, higher as paper), smoothness:'
+rust  crates/effects/src/catalog.rs:622  '{fiberLength: pt 3..50 (15; scale of paper fibers and blotchy daubs), brightness: 0..100 (' -> '{fiberLength: pt 3..50 (15; scale of paper fibers and blotchy daubs), brightness: 0..100 ('
+rust  crates/engine/src/cmd/brushlib.rs:73  "{path? | data?: file text | dataBase64?, name?: file name (default: the path's)} load the " -> "{path? | data?: file text | dataBase64?, name?: file name (default: the path's)} load the "
+rust  crates/engine/src/cmd/clipboard/flavours.rs:208  "{dataBase64 (EMF or WMF bytes), center?: [x, y]} replace the clipboard with the picture's " -> "{dataBase64 (EMF or WMF bytes), center?: [x, y]} replace the clipboard with the picture's "
+rust  crates/engine/src/cmd/fileio/affinity/nodes.rs:63  "blend modes VectorCraft doesn't have (Add, Linear Light, Vivid Light, Pin Light, Hard Mix," -> "blend modes NERDS Vector doesn't have (Add, Linear Light, Vivid Light, Pin Light, Hard Mix"
+rust  crates/engine/src/cmd/fileio/affinity/nodes.rs:106  'objects beyond the document range VectorCraft supports (left out)' -> 'objects beyond the document range NERDS Vector supports (left out)'
+rust  crates/engine/src/cmd/fileio/commands.rs:12  '{path | name | dataBase64 (a file\'s path, or its name with its bytes), pages?: \\"2-3, 5\\" ' -> '{path | name | dataBase64 (a file\'s path, or its name with its bytes), pages?: \\"2-3, 5\\" '
+kept  crates/engine/src/cmd/fileio/formats.rs:347  label: "VectorCraft",
+rust  crates/engine/src/cmd/fileio/formats.rs:451  'VectorCraft Template' -> 'NERDS Vector Template'
+rust  crates/engine/src/cmd/fileio/legacy_ai.rs:97  'a legacy .ai (version 7) keeps layers, groups, compound paths, clipping groups, type, colo' -> 'a legacy .ai (version 7) keeps layers, groups, compound paths, clipping groups, type, colo'
+rust  crates/engine/src/cmd/fileio/load.rs:279  "can't open `{name}`: not a format VectorCraft reads (see document.formats)" -> "can't open `{name}`: not a format NERDS Vector reads (see document.formats)"
+rust  crates/engine/src/cmd/fileio/load.rs:644  'not an image VectorCraft reads (see document.formats)' -> 'not an image NERDS Vector reads (see document.formats)'
+rust  crates/engine/src/cmd/fileio/native.rs:30  'the format version to write: 4 (current), or 3, 2 or 1 for older VectorCraft versions (1 a' -> 'the format version to write: 4 (current), or 3, 2 or 1 for older NERDS Vector versions (1 '
+rust  crates/engine/src/cmd/fileio/native.rs:106  'pdf (a PDF-compatible .ai carrying the VectorCraft document) or 7 (the legacy, PostScript-' -> 'pdf (a PDF-compatible .ai carrying the NERDS Vector document) or 7 (the legacy, PostScript'
+rust  crates/engine/src/cmd/fileio/pdf.rs:32  '\\"VectorCraft Default\\"' -> '\\"NERDS Vector Default\\"'
+rust  crates/engine/src/cmd/fileio/pdf.rs:51  "embed the native document so VectorCraft reopens the PDF editable (the default preset's ch" -> "embed the native document so NERDS Vector reopens the PDF editable (the default preset's c"
+rust  crates/engine/src/cmd/fileio/pdf.rs:112  '{path?, preset?: \\"VectorCraft Default\\" (built-in or saved: pdf.preset.list), artboard? |' -> '{path?, preset?: \\"NERDS Vector Default\\" (built-in or saved: pdf.preset.list), artboard? '
+rust  crates/engine/src/cmd/fileio/save.rs:128  'VectorCraft Templates' -> 'NERDS Vector Templates'
+rust  crates/engine/src/cmd/fileio/save.rs:468  '{} keeps the artwork but not everything a VectorCraft document holds (editable effects, sy' -> '{} keeps the artwork but not everything a NERDS Vector document holds (editable effects, s'
+rust  crates/engine/src/cmd/fileio/save.rs:576  'saved without PDF content: VectorCraft opens it as before, other apps show empty pages' -> 'saved without PDF content: NERDS Vector opens it as before, other apps show empty pages'
+rust  crates/engine/src/cmd/fileio/save.rs:967  "{path?, format?: vectorcraft|template|pdf|svg|svgz|ai|eps (default: the path's extension, " -> "{path?, format?: vectorcraft|template|pdf|svg|svgz|ai|eps (default: the path's extension, "
+rust  crates/engine/src/cmd/fileio/svg.rs:55  'embed the native document in <metadata> so VectorCraft reopens the SVG with nothing lost' -> 'embed the native document in <metadata> so NERDS Vector reopens the SVG with nothing lost'
+rust  crates/engine/src/cmd/findfiles/walk.rs:409  "VectorCraft doesn't search the Shared or Public folder in Users: {path}" -> "NERDS Vector doesn't search the Shared or Public folder in Users: {path}"
+rust  crates/engine/src/cmd/findfiles/walk.rs:410  "VectorCraft doesn't search other apps' or the system's folders: {path}" -> "NERDS Vector doesn't search other apps' or the system's folders: {path}"
+rust  crates/engine/src/cmd/fontfiles.rs:88  '{files: [paths the last text.findFontFiles search found] (1 to 1000)} copy the font files ' -> '{files: [paths the last text.findFontFiles search found] (1 to 1000)} copy the font files '
+rust  crates/engine/src/cmd/fontfiles.rs:339  "VectorCraft's Fonts folder isn't set here: the desktop app and vectorcraft-cli set it" -> "NERDS Vector's Fonts folder isn't set here: the desktop app and vectorcraft-cli set it"
+rust  crates/engine/src/cmd/help.rs:27  'VectorCraft on getartcraft.com' -> 'NERDS Vector on getartcraft.com'
+rust  crates/engine/src/cmd/help.rs:28  'VectorCraft on GitHub' -> 'NERDS Vector on GitHub'
+rust  crates/engine/src/cmd/importmatches.rs:57  '{matches: [{kind: name|key|modifiers, name: as the file writes it (codes in decimal), targ' -> '{matches: [{kind: name|key|modifiers, name: as the file writes it (codes in decimal), targ'
+kept  crates/engine/src/cmd/links.rs:1136  json!({ "format": pdf.map_or("VectorCraft", |f| f.label), "document": true, "pageWidth": p.width, "pageHeight": p.height })
+rust  crates/engine/src/cmd/pdfcmds.rs:40  '{} → {presets: [{name, builtIn, supported (the writer produces its standard), description,' -> '{} → {presets: [{name, builtIn, supported (the writer produces its standard), description,'
+rust  crates/engine/src/cmd/pdfcmds.rs:49  '{name?: (default: a new \\"PDF Preset N\\"), newName?: rename it, description?, preset?: the' -> '{name?: (default: a new \\"PDF Preset N\\"), newName?: rename it, description?, preset?: the'
+rust  crates/engine/src/cmd/place.rs:66  "{path | name | dataBase64 (a file's path, or its name with its bytes), link?: true (a rast" -> "{path | name | dataBase64 (a file's path, or its name with its bytes), link?: true (a rast"
+rust  crates/engine/src/cmd/place.rs:173  "can't place `{name}`: not a format VectorCraft reads (see document.formats)" -> "can't place `{name}`: not a format NERDS Vector reads (see document.formats)"
+rust  crates/engine/src/cmd/place/document.rs:119  "`{file}` isn't a VectorCraft document, a PDF or a PDF-compatible .ai file" -> "`{file}` isn't a NERDS Vector document, a PDF or a PDF-compatible .ai file"
+rust  crates/engine/src/cmd/place/docx.rs:133  "the Word document's package uses ZIP64 records, which VectorCraft doesn't read" -> "the Word document's package uses ZIP64 records, which NERDS Vector doesn't read"
+rust  crates/engine/src/cmd/place/docx.rs:135  "`{name}` in the Word document uses compression method {m}, which VectorCraft doesn't read" -> "`{name}` in the Word document uses compression method {m}, which NERDS Vector doesn't read"
+rust  crates/engine/src/cmd/recovery.rs:985  '`{f}` belongs to a VectorCraft that is running' -> '`{f}` belongs to a NERDS Vector that is running'
+rust  crates/engine/src/cmd/recovery.rs:1106  '{} the recovery copies in the store → {copies: [{file (\\"<area>/<name>\\"), title, path (th' -> '{} the recovery copies in the store → {copies: [{file (\\"<area>/<name>\\"), title, path (th'
+rust  crates/engine/src/cmd/recovery.rs:1115  "{file?} open a copy left behind by a crash (default: every one; a running VectorCraft's co" -> "{file?} open a copy left behind by a crash (default: every one; a running NERDS Vector's c"
+rust  crates/engine/src/cmd/recovery.rs:1124  '{file?} delete a copy left behind by a crash (default: every one; copies of open documents' -> '{file?} delete a copy left behind by a crash (default: every one; copies of open documents'
+rust  crates/engine/src/cmd/shortcutset.rs:38  "This shortcut file is in a form VectorCraft can't read." -> "This shortcut file is in a form NERDS Vector can't read."
+rust  crates/engine/src/cmd/stylelib.rs:63  "{path? | data?: file text | dataBase64?, name?: file name (default: the path's)} load a .v" -> "{path? | data?: file text | dataBase64?, name?: file name (default: the path's)} load a .v"
+rust  crates/engine/src/cmd/swatchlib.rs:75  "{path? | data?: file text | dataBase64?, name?: file name (default: the path's)} load a .v" -> "{path? | data?: file text | dataBase64?, name?: file name (default: the path's)} load a .v"
+rust  crates/engine/src/cmd/swatchlib.rs:84  '{library: id or name of a loaded library (category \\"loaded\\", swatch.library.load)} copy ' -> '{library: id or name of a loaded library (category \\"loaded\\", swatch.library.load)} copy '
+rust  crates/engine/src/cmd/symbollib.rs:71  "{path? | data?: file text | dataBase64?, name?: file name (default: the path's)} load the " -> "{path? | data?: file text | dataBase64?, name?: file name (default: the path's)} load the "
+rust  crates/eps/src/import.rs:184  "it uses `{at}`, which VectorCraft's PostScript reader doesn't know" -> "it uses `{at}`, which NERDS Vector's PostScript reader doesn't know"
+rust  crates/eps/src/import.rs:271  "it draws nothing VectorCraft's PostScript reader can show" -> "it draws nothing NERDS Vector's PostScript reader can show"
+rust  crates/eps/src/import/ai/blend.rs:44  "a blend VectorCraft couldn't read as a live blend comes in as its drawn steps" -> "a blend NERDS Vector couldn't read as a live blend comes in as its drawn steps"
+rust  crates/eps/src/import/ai/read/art.rs:315  "an image VectorCraft can't read was left out" -> "an image NERDS Vector can't read was left out"
+rust  crates/eps/src/import/ai/read/art.rs:320  "an image VectorCraft can't read was left out" -> "an image NERDS Vector can't read was left out"
+rust  crates/eps/src/import/ai/read/art.rs:329  "an image VectorCraft can't read was left out" -> "an image NERDS Vector can't read was left out"
+rust  crates/eps/src/import/ai/read/art.rs:393  "an image VectorCraft can't read was left out" -> "an image NERDS Vector can't read was left out"
+rust  crates/eps/src/import/ai/read/art.rs:398  "an image VectorCraft can't read was left out" -> "an image NERDS Vector can't read was left out"
+rust  crates/eps/src/import/ai/read/art.rs:412  "an image VectorCraft can't read was left out" -> "an image NERDS Vector can't read was left out"
+rust  crates/eps/src/import/ai/read/art.rs:418  "an image VectorCraft can't read was left out" -> "an image NERDS Vector can't read was left out"
+rust  crates/eps/src/import/ai/read/document.rs:369  "operators VectorCraft doesn't know ({})" -> "operators NERDS Vector doesn't know ({})"
+rust  crates/eps/src/import/ai/read/document.rs:373  "it has {}, which VectorCraft doesn't read from it yet" -> "it has {}, which NERDS Vector doesn't read from it yet"
+rust  crates/eps/src/import/ai/read/types.rs:262  "non-native art (a placed PDF's content) that VectorCraft can't read is left out" -> "non-native art (a placed PDF's content) that NERDS Vector can't read is left out"
+rust  crates/eps/src/import/graphics.rs:66  'the file draws more than VectorCraft reads: the rest was left out' -> 'the file draws more than NERDS Vector reads: the rest was left out'
+rust  crates/eps/src/import/native/slots.rs:8  "text objects of kinds VectorCraft doesn't read from the file's text document yet are left " -> "text objects of kinds NERDS Vector doesn't read from the file's text document yet are left"
+rust  crates/eps/src/legacy_ai.rs:188  '%%Creator: VectorCraft {}' -> '%%Creator: NERDS Vector {}'
+rust  crates/eps/src/lib.rs:258  '%%Creator: VectorCraft {}' -> '%%Creator: NERDS Vector {}'
+rust  crates/format/src/lib.rs:96  'not a VectorCraft file: {0}' -> 'not a NERDS Vector file: {0}'
+rust  crates/format/src/lib.rs:98  'file version {0} is newer than this VectorCraft supports ({VERSION})' -> 'file version {0} is newer than this NERDS Vector supports ({VERSION})'
+rust  crates/format/src/lib.rs:102  "can't save version {0}: VectorCraft writes versions {MIN_VERSION} to {VERSION}" -> "can't save version {0}: NERDS Vector writes versions {MIN_VERSION} to {VERSION}"
+rust  crates/format/src/lib.rs:106  'the compressed file unpacks to more than VectorCraft reads ({} MB of document, {} MB per i' -> 'the compressed file unpacks to more than NERDS Vector reads ({} MB of document, {} MB per '
+rust  crates/format/src/lib.rs:391  'VectorCraft {}' -> 'NERDS Vector {}'
+rust  crates/mcp/src/backend.rs:149  'VectorCraft app at {} is not reachable: {e}; `{method}`: nothing was sent' -> 'NERDS Vector app at {} is not reachable: {e}; `{method}`: nothing was sent'
+rust  crates/mcp/src/backend.rs:162  'VectorCraft app at {}: `{method}` failed: {e}; operation may have completed; inspect state' -> 'NERDS Vector app at {}: `{method}` failed: {e}; operation may have completed; inspect stat'
+rust  crates/mcp/src/backend.rs:169  'VectorCraft app at {} refused `{method}`: {why}; nothing was run' -> 'NERDS Vector app at {} refused `{method}`: {why}; nothing was run'
+rust  crates/mcp/src/backend.rs:177  'VectorCraft app at {}: reply id mismatch (expected {id}); connection dropped; operation ma' -> 'NERDS Vector app at {}: reply id mismatch (expected {id}); connection dropped; operation m'
+rust  crates/mcp/src/prompts.rs:158  '\\\nDesign a poster in VectorCraft.\n\nBrief: {brief}\nPalette: {palette}\nWording: {text}\n\nCoor' -> '\\\nDesign a poster in NERDS Vector.\n\nBrief: {brief}\nPalette: {palette}\nWording: {text}\n\nCoo'
+rust  crates/mcp/src/prompts.rs:210  '\\\nDraw a set of {count} icons of {subject} in VectorCraft, {detail}.\n\nCoordinates are poin' -> '\\\nDraw a set of {count} icons of {subject} in NERDS Vector, {detail}.\n\nCoordinates are poi'
+rust  crates/mcp/src/prompts.rs:253  '\\\nRecolour the current selection in VectorCraft with {palette}, using the `{method}` recol' -> '\\\nRecolour the current selection in NERDS Vector with {palette}, using the `{method}` reco'
+rust  crates/mcp/src/prompts.rs:291  '\\\nTrace the image at {path} in VectorCraft with the \\"{preset}\\" preset, then style the re' -> '\\\nTrace the image at {path} in NERDS Vector with the \\"{preset}\\" preset, then style the r'
+rust  crates/mcp/src/prompts.rs:352  '\\\nExport the document in VectorCraft to {formats}, into {directory}, at {scale} pixels per' -> '\\\nExport the document in NERDS Vector to {formats}, into {directory}, at {scale} pixels pe'
+rust  crates/mcp/src/server.rs:80  'VectorCraft is a professional vector illustration app. Coordinates are \\\npoints in documen' -> 'NERDS Vector is a professional vector illustration app. Coordinates are \\\npoints in docume'
+kept  crates/mcp/src/server.rs:428  "serverInfo": {"name": "vectorcraft", "title": "VectorCraft", "version": env!("CARGO_PKG_VERSION")},
+rust  crates/mcp/src/tools/definitions.rs:159  'List VectorCraft commands (id, label, menu path, shortcut, parameter description, enabled ' -> 'List NERDS Vector commands (id, label, menu path, shortcut, parameter description, enabled'
+rust  crates/mcp/src/tools/definitions.rs:169  'Execute any VectorCraft command by id with JSON params (see list_commands for ids and para' -> 'Execute any NERDS Vector command by id with JSON params (see list_commands for ids and par'
+rust  crates/mcp/src/tools/definitions.rs:367  "Save the active document with the engine's document.save: by default to its own file in it" -> "Save the active document with the engine's document.save: by default to its own file in it"
+kept  crates/metafile/src/emf.rs:161  "VectorCraft".encode_utf16().chain([0]).chain(title.chars().take(200).collect::<String>().encode_utf16()).chain([0, 0]).collect();
+rust  crates/metafile/src/import.rs:854  "{n} record{} of kinds VectorCraft doesn't read {} skipped" -> "{n} record{} of kinds NERDS Vector doesn't read {} skipped"
+rust  crates/pdf/src/editing.rs:25  'VectorCraft editing data; page hash ' -> 'NERDS Vector editing data; page hash '
+kept  crates/pdf/src/export/writer.rs:94  creator: "VectorCraft".into(),
+kept  crates/pdf/src/export/writer.rs:95  producer: "VectorCraft".into(),
+rust  crates/pdf/src/presets.rs:13  'VectorCraft Default' -> 'NERDS Vector Default'
+rust  crates/pdf/src/presets.rs:61  "Keeps the document editable: VectorCraft reopens the PDF with nothing lost. For files you'" -> 'Keeps the document editable: NERDS Vector reopens the PDF with nothing lost. For files you'
+rust  crates/plugins/example/src/lib.rs:10  '{\n  "id": "org.vectorcraft.example.desaturate",\n  "name": "Desaturate",\n  "version": "1.0.' -> '{\n  "id": "org.vectorcraft.example.desaturate",\n  "name": "Desaturate",\n  "version": "1.0.'
+rust  crates/svg/src/import/files.rs:157  'is not an image VectorCraft reads' -> 'is not an image NERDS Vector reads'
+rust  crates/testkit/src/ai.rs:17  '{PS_HEADER}\\n%%Creator: VectorCraft tests\\n%%BoundingBox: {a0} {a1} {a2} {a3}\\n%%HiResBoun' -> '{PS_HEADER}\\n%%Creator: NERDS Vector tests\\n%%BoundingBox: {a0} {a1} {a2} {a3}\\n%%HiResBou'
+rust  crates/testkit/src/ai.rs:140  '{PS_HEADER} EPSF-3.0\\n%%Creator: VectorCraft tests\\n%%BoundingBox: 0 0 200 100\\n%%HiResBou' -> '{PS_HEADER} EPSF-3.0\\n%%Creator: NERDS Vector tests\\n%%BoundingBox: 0 0 200 100\\n%%HiResBo'
+kept  crates/testkit/src/fixtures.rs:147  let tx = id_of(&exec(&mut s, "text.create", json!({"x": 250, "y": 300, "text": "VectorCraft", "size": 30})));
+rust  crates/ui-egui/src/canvas/home.rs:28  'Welcome to VectorCraft' -> 'Welcome to NERDS Vector'
+rust  crates/ui-egui/src/chrome.rs:117  'VectorCraft' -> 'NERDS Vector'
+rust  crates/ui-egui/src/chrome.rs:146  '{}{} \\u{2014} VectorCraft' -> '{}{} \\u{2014} NERDS Vector'
+rust  crates/ui-egui/src/chrome.rs:147  'VectorCraft' -> 'NERDS Vector'
+rust  crates/ui-egui/src/community.rs:72  'VectorCraft on getartcraft.com' -> 'NERDS Vector on getartcraft.com'
+rust  crates/ui-egui/src/dialogs/about.rs:12  'About VectorCraft' -> 'About NERDS Vector'
+rust  crates/ui-egui/src/dialogs/about.rs:55  'VectorCraft' -> 'NERDS Vector'
+rust  crates/ui-egui/src/dialogs/about.rs:67  'Part of ArtCraft. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono (OFL). Ic' -> 'Part of ArtCraft. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono (OFL). Ic'
+rust  crates/ui-egui/src/dialogs/confirm.rs:58  "The name in the save panel was “{typed}”; VectorCraft added the file type's extension. Rep" -> "The name in the save panel was “{typed}”; NERDS Vector added the file type's extension. Re"
+kept  crates/ui-egui/src/dialogs/export_for_screens.rs:72  ("VectorCraft", "vectorcraft", None, false),
+kept  crates/ui-egui/src/dialogs/export_for_screens.rs:75  ["PNG", "PNG 8", "JPG 100", "JPG 80", "JPG 50", "WebP", "GIF", "TIFF", "SVG", "PDF", "PDF Print", "EPS", "AI", "VectorCraft"];
+rust  crates/ui-egui/src/dialogs/missing_fonts.rs:303  'VectorCraft copies the fonts to {folder}.' -> 'NERDS Vector copies the fonts to {folder}.'
+rust  crates/ui-egui/src/dialogs/place.rs:103  'VectorCraft documents: one locked object, updated when the file changes.' -> 'NERDS Vector documents: one locked object, updated when the file changes.'
+rust  crates/ui-egui/src/dialogs/recovery.rs:14  "VectorCraft didn't quit normally last time. These documents had unsaved changes:" -> "NERDS Vector didn't quit normally last time. These documents had unsaved changes:"
+rust  crates/ui-egui/src/dialogs/save_for_web.rs:215  'VectorCraft Save for Web ' -> 'NERDS Vector Save for Web '
+rust  crates/ui-egui/src/dialogs/save_for_web.rs:225  'VectorCraft Save for Web' -> 'NERDS Vector Save for Web'
+rust  crates/ui-egui/src/dialogs/script_check.rs:197  'VectorCraft read this script without running it.' -> 'NERDS Vector read this script without running it.'
+rust  crates/ui-egui/src/dialogs/shortcut_import.rs:677  'Each entry of the file is matched to a VectorCraft tool, command or panel. Check the match' -> 'Each entry of the file is matched to a NERDS Vector tool, command or panel. Check the matc'
+rust  crates/ui-egui/src/dialogs/shortcut_import.rs:686  'Start from VectorCraft Defaults' -> 'Start from NERDS Vector Defaults'
+rust  crates/ui-egui/src/dialogs/shortcut_import.rs:891  'In VectorCraft' -> 'In NERDS Vector'
+rust  crates/ui-egui/src/ime.rs:94  'VectorCraft IME pass begin' -> 'NERDS Vector IME pass begin'
+rust  crates/ui-egui/src/ime.rs:102  'VectorCraft IME pass end' -> 'NERDS Vector IME pass end'
+rust  crates/ui-egui/src/io/save.rs:302  "Opening it left out what VectorCraft can't read yet ({what}), so replacing it loses that f" -> "Opening it left out what NERDS Vector can't read yet ({what}), so replacing it loses that "
+kept  crates/ui-egui/src/menus/bar.rs:29  let tree: Vec<(&str, Vec<Item>)> = tree.into_iter().filter(|(title, _)| *title != "VectorCraft").collect();
+kept  crates/ui-egui/src/menus/tree.rs:22  "VectorCraft",
+rust  crates/ui-egui/src/menus/tree.rs:23  'About VectorCraft' -> 'About NERDS Vector'
+rust  crates/ui-egui/src/menus/tree.rs:688  'VectorCraft on getartcraft.com' -> 'NERDS Vector on getartcraft.com'
+rust  crates/ui-egui/src/menus/tree.rs:689  'VectorCraft on GitHub' -> 'NERDS Vector on GitHub'
+rust  crates/ui-egui/src/menus/tree.rs:692  'VectorCraft Help…' -> 'NERDS Vector Help…'
+rust  crates/ui-egui/src/menus/tree.rs:695  'About VectorCraft' -> 'About NERDS Vector'
+rust  crates/ui-egui/src/menus/ui_commands.rs:161  '{name: \\"VectorCraft Defaults\\" | \\"Classic Defaults\\"} (names of earlier versions are acc' -> '{name: \\"NERDS Vector Defaults\\" | \\"Classic Defaults\\"} (names of earlier versions are ac'
+rust  crates/ui-egui/src/menus/ui_commands.rs:602  'About VectorCraft' -> 'About NERDS Vector'
+rust  crates/ui-egui/src/menus/ui_commands.rs:605  'Quit VectorCraft' -> 'Quit NERDS Vector'
+rust  crates/ui-egui/src/menus/ui_commands.rs:1027  '{name?: a saved preset to edit | preset?: the preset a new one starts from (default Vector' -> '{name?: a saved preset to edit | preset?: the preset a new one starts from (default NERDS '
+rust  crates/ui-egui/src/native_menu.rs:41  'VectorCraft' -> 'NERDS Vector'
+rust  crates/ui-egui/src/native_menu.rs:52  'Hide VectorCraft' -> 'Hide NERDS Vector'
+rust  crates/ui-egui/src/native_menu.rs:315  'Hide VectorCraft' -> 'Hide NERDS Vector'
+rust  crates/ui-egui/src/native_menu.rs:345  'Quit VectorCraft' -> 'Quit NERDS Vector'
+rust  crates/ui-egui/src/native_menu.rs:578  'menu: {} is {} on macOS and {} in VectorCraft, which keeps it' -> 'menu: {} is {} on macOS and {} in NERDS Vector, which keeps it'
+rust  crates/ui-egui/src/panel_docking.rs:705  'Lock Workspace is not available in VectorCraft' -> 'Lock Workspace is not available in NERDS Vector'
+rust  crates/ui-egui/src/prefs_dialog.rs:283  'Applies the next time VectorCraft starts.' -> 'Applies the next time NERDS Vector starts.'
+rust  crates/ui-egui/src/prefs_dialog.rs:334  'Applies the next time VectorCraft starts.' -> 'Applies the next time NERDS Vector starts.'
+rust  crates/ui-egui/src/shortcut_editor.rs:24  'VectorCraft Defaults' -> 'NERDS Vector Defaults'
+rust  crates/ui-egui/src/shortcut_editor.rs:531  'not a VectorCraft shortcut set (missing `overrides`)' -> 'not a NERDS Vector shortcut set (missing `overrides`)'
+rust  crates/ui-egui/src/shortcut_editor.rs:627  'VectorCraft Shortcuts.json' -> 'NERDS Vector Shortcuts.json'
+rust  crates/ui-egui/src/shortcut_editor.rs:638  'VectorCraft Shortcuts.json' -> 'NERDS Vector Shortcuts.json'
+rust  crates/ui-egui/src/updates_ui.rs:99  'VectorCraft {version} is currently the newest version available.' -> 'NERDS Vector {version} is currently the newest version available.'
+rust  crates/ui-egui/src/updates_ui.rs:107  'VectorCraft Updates' -> 'NERDS Vector Updates'
+i18n  crates/ui-egui/src/i18n/bg.tsv  (47 lines)
+i18n  crates/ui-egui/src/i18n/bs.tsv  (50 lines)
+i18n  crates/ui-egui/src/i18n/ca.tsv  (47 lines)
+i18n  crates/ui-egui/src/i18n/cs.tsv  (47 lines)
+i18n  crates/ui-egui/src/i18n/da.tsv  (47 lines)
+i18n  crates/ui-egui/src/i18n/de.tsv  (39 lines)
+i18n  crates/ui-egui/src/i18n/el.tsv  (47 lines)
+i18n  crates/ui-egui/src/i18n/es.tsv  (44 lines)
+i18n  crates/ui-egui/src/i18n/fi.tsv  (47 lines)
+i18n  crates/ui-egui/src/i18n/fr.tsv  (47 lines)
+i18n  crates/ui-egui/src/i18n/hu.tsv  (47 lines)
+i18n  crates/ui-egui/src/i18n/id.tsv  (47 lines)
+i18n  crates/ui-egui/src/i18n/it.tsv  (39 lines)
+i18n  crates/ui-egui/src/i18n/ja.tsv  (41 lines)
+i18n  crates/ui-egui/src/i18n/ka.tsv  (44 lines)
+i18n  crates/ui-egui/src/i18n/ko.tsv  (39 lines)
+i18n  crates/ui-egui/src/i18n/nl.tsv  (47 lines)
+i18n  crates/ui-egui/src/i18n/pl.tsv  (40 lines)
+i18n  crates/ui-egui/src/i18n/pt-br.tsv  (44 lines)
+i18n  crates/ui-egui/src/i18n/ru.tsv  (44 lines)
+i18n  crates/ui-egui/src/i18n/sv.tsv  (49 lines)
+i18n  crates/ui-egui/src/i18n/tr.tsv  (47 lines)
+i18n  crates/ui-egui/src/i18n/uk.tsv  (39 lines)
+i18n  crates/ui-egui/src/i18n/vi.tsv  (39 lines)
+i18n  crates/ui-egui/src/i18n/zh-hans.tsv  (48 lines)
+i18n  crates/ui-egui/src/i18n/zh-hant.tsv  (40 lines)
+win   packaging/windows/package.ps1  (1 lines)
+win   packaging/windows/portable.txt  (5 lines)
+win   packaging/windows/vectorcraft.wxs  (9 lines)
+mac   packaging/macos/Info.plist.in  (5 lines)
+mac   packaging/macos/dmg/generate.py  (2 lines)
+mac   packaging/macos/package.sh  (6 lines)
