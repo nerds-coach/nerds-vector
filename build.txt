@@ -1,0 +1,75 @@
+::warning::macOS: ad-hoc signing (no MACOS_SIGN_IDENTITY); artifacts are not notarized
+==> VectorCraft 0.24.1 for macOS (universal), identity: -, notarize: 0
+[1m[92m    Updating[0m crates.io index
+[1m[33mwarning[0m: patch `egui_demo_lib v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)` was not used in the crate graph
+[1m[33mwarning[0m: patch `egui_inspection v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)` was not used in the crate graph
+[1m[33mwarning[0m: patch `egui_system_font_provider v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)` was not used in the crate graph
+[1m[96mhelp[0m: Check that the patched package version and available features are compatible
+      with the dependency requirements. If the patch has a different version from
+      what is locked in the Cargo.lock file, run `cargo update` to use the new
+      version. This may also occur with an optional dependency that is not enabled.
+[1m[92m   Compiling[0m vectorcraft-text v0.24.1 (/Users/runner/work/nerds-vector/nerds-vector/crates/text)
+[1m[92m   Compiling[0m vectorcraft-geom v0.24.1 (/Users/runner/work/nerds-vector/nerds-vector/crates/geom)
+[1m[92m   Compiling[0m vectorcraft-color v0.24.1 (/Users/runner/work/nerds-vector/nerds-vector/crates/color)
+[1m[92m   Compiling[0m vectorcraft-pathops v0.24.1 (/Users/runner/work/nerds-vector/nerds-vector/crates/pathops)
+[1m[92m   Compiling[0m vectorcraft-doc v0.24.1 (/Users/runner/work/nerds-vector/nerds-vector/crates/doc)
+[1m[33mwarning[0m: vectorcraft-text@0.24.1: web build won't fetch: Cairo Regular, Tajawal ExtraLight, Tajawal Light, Tajawal Regular, Tajawal Medium, Tajawal Bold, Tajawal ExtraBold, Tajawal Black, Almarai Light, Almarai Regular, Almarai Bold, Almarai ExtraBold, IBM Plex Sans Arabic Thin, IBM Plex Sans Arabic ExtraLight, IBM Plex Sans Arabic Light, IBM Plex Sans Arabic Regular, IBM Plex Sans Arabic Medium, IBM Plex Sans Arabic SemiBold, IBM Plex Sans Arabic Bold, Noto Kufi Arabic Regular, Amiri Regular, Amiri Italic, Amiri Bold, Amiri Bold Italic, Alexandria Regular, Fustat Regular, Reem Kufi Regular, Aref Ruqaa Regular, Aref Ruqaa Bold, Gulzar Regular not in CRAFT_FONTS_DIR=/Users/runner/work/nerds-vector/nerds-vector/craft-fonts (an older craft-fonts?)
+[1m[33mwarning[0m: vectorcraft-text@0.24.1: web build won't fetch: Cairo Regular, Tajawal ExtraLight, Tajawal Light, Tajawal Regular, Tajawal Medium, Tajawal Bold, Tajawal ExtraBold, Tajawal Black, Almarai Light, Almarai Regular, Almarai Bold, Almarai ExtraBold, IBM Plex Sans Arabic Thin, IBM Plex Sans Arabic ExtraLight, IBM Plex Sans Arabic Light, IBM Plex Sans Arabic Regular, IBM Plex Sans Arabic Medium, IBM Plex Sans Arabic SemiBold, IBM Plex Sans Arabic Bold, Noto Kufi Arabic Regular, Amiri Regular, Amiri Italic, Amiri Bold, Amiri Bold Italic, Alexandria Regular, Fustat Regular, Reem Kufi Regular, Aref Ruqaa Regular, Aref Ruqaa Bold, Gulzar Regular not in CRAFT_FONTS_DIR=/Users/runner/work/nerds-vector/nerds-vector/craft-fonts (an older craft-fonts?)
+[1m[92m   Compiling[0m vectorcraft-plugins v0.24.1 (/Users/runner/work/nerds-vector/nerds-vector/crates/plugins)
+[1m[92m   Compiling[0m vectorcraft-three-d v0.24.1 (/Users/runner/work/nerds-vector/nerds-vector/crates/three-d)
+[1m[92m   Compiling[0m vectorcraft-effects v0.24.1 (/Users/runner/work/nerds-vector/nerds-vector/crates/effects)
+[1m[92m   Compiling[0m vectorcraft-brush v0.24.1 (/Users/runner/work/nerds-vector/nerds-vector/crates/brush)
+[1m[92m   Compiling[0m vectorcraft-pdf v0.24.1 (/Users/runner/work/nerds-vector/nerds-vector/crates/pdf)
+[1m[92m   Compiling[0m vectorcraft-ui-egui v0.24.1 (/Users/runner/work/nerds-vector/nerds-vector/crates/ui-egui)
+[1m[92m   Compiling[0m vectorcraft-render v0.24.1 (/Users/runner/work/nerds-vector/nerds-vector/crates/render)
+[1m[92m   Compiling[0m vectorcraft-metafile v0.24.1 (/Users/runner/work/nerds-vector/nerds-vector/crates/metafile)
+[1m[92m   Compiling[0m vectorcraft-svg v0.24.1 (/Users/runner/work/nerds-vector/nerds-vector/crates/svg)
+[1m[92m   Compiling[0m vectorcraft-eps v0.24.1 (/Users/runner/work/nerds-vector/nerds-vector/crates/eps)
+[1m[92m   Compiling[0m vectorcraft-affinity v0.24.1 (/Users/runner/work/nerds-vector/nerds-vector/crates/affinity)
+[1m[92m   Compiling[0m vectorcraft-format v0.24.1 (/Users/runner/work/nerds-vector/nerds-vector/crates/format)
+[1m[92m   Compiling[0m vectorcraft-js v0.24.1 (/Users/runner/work/nerds-vector/nerds-vector/crates/js)
+[1m[92m   Compiling[0m vectorcraft-tools v0.24.1 (/Users/runner/work/nerds-vector/nerds-vector/crates/tools)
+[1m[92m   Compiling[0m vectorcraft-cad v0.24.1 (/Users/runner/work/nerds-vector/nerds-vector/crates/cad)
+[1m[92m   Compiling[0m vectorcraft-trace v0.24.1 (/Users/runner/work/nerds-vector/nerds-vector/crates/trace)
+[1m[92m   Compiling[0m vectorcraft-scriptcheck v0.24.1 (/Users/runner/work/nerds-vector/nerds-vector/crates/scriptcheck)
+[1m[92m   Compiling[0m vectorcraft-apischema v0.24.1 (/Users/runner/work/nerds-vector/nerds-vector/crates/apischema)
+[1m[92m   Compiling[0m vectorcraft-engine v0.24.1 (/Users/runner/work/nerds-vector/nerds-vector/crates/engine)
+[1m[92m   Compiling[0m vectorcraft v0.24.1 (/Users/runner/work/nerds-vector/nerds-vector/apps/vectorcraft)
+[1m[92m   Compiling[0m vectorcraft-mcp v0.24.1 (/Users/runner/work/nerds-vector/nerds-vector/crates/mcp)
+[1m[33mwarning[0m[1m: associated function `failed` is never used[0m
+   [1m[94m--> [0mapps/vectorcraft/src/clipboard.rs:654:12
+    [1m[94m|[0m
+[1m[94m652[0m [1m[94m|[0m     impl Answer {
+    [1m[94m|[0m     [1m[94m-----------[0m [1m[94massociated function in this implementation[0m
+[1m[94m653[0m [1m[94m|[0m         /// The answer to `request` when it couldn't be read: `why`, or no files.
+[1m[94m654[0m [1m[94m|[0m         fn failed(request: Request, why: String) -> Self {
+    [1m[94m|[0m            [1m[33m^^^^^^[0m
+    [1m[94m|[0m
+    [1m[94m= [0m[1mnote[0m: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+[1m[92m   Compiling[0m vectorcraft-cli v0.24.1 (/Users/runner/work/nerds-vector/nerds-vector/apps/vectorcraft-cli)
+[1m[33mwarning[0m: `vectorcraft` (bin "vectorcraft") generated 1 warning
+[1m[33mwarning[0m: `vectorcraft` (bin "vectorcraft") generated 1 warning (1 duplicate)
+[1m[92m    Finished[0m `release` profile [optimized] target(s) in 88m 11s
+Architectures in the fat file: /Users/runner/work/nerds-vector/nerds-vector/target/macos-package/bin/vectorcraft are: x86_64 arm64 
+Architectures in the fat file: /Users/runner/work/nerds-vector/nerds-vector/target/macos-package/bin/vectorcraft-cli are: x86_64 arm64 
+==> assembling /Users/runner/work/nerds-vector/nerds-vector/target/macos-package/NERDS Vector.app
+/Users/runner/work/nerds-vector/nerds-vector/target/macos-package/NERDS Vector.app/Contents/Info.plist: OK
+/Users/runner/work/nerds-vector/nerds-vector/target/macos-package/NERDS Vector.app/Contents/MacOS/VectorCraft: replacing existing signature
+/Users/runner/work/nerds-vector/nerds-vector/target/macos-package/NERDS Vector.app: replacing existing signature
+/Users/runner/work/nerds-vector/nerds-vector/target/macos-package/NERDS Vector.app: valid on disk
+/Users/runner/work/nerds-vector/nerds-vector/target/macos-package/NERDS Vector.app: satisfies its Designated Requirement
+==> building /Users/runner/work/nerds-vector/nerds-vector/dist/release/vectorcraft-0.24.1-macos-universal.dmg
+created: /Users/runner/work/nerds-vector/nerds-vector/dist/release/vectorcraft-0.24.1-macos-universal.dmg
+/Users/runner/work/nerds-vector/nerds-vector/dist/release/vectorcraft-0.24.1-macos-universal.dmg: valid on disk
+/Users/runner/work/nerds-vector/nerds-vector/dist/release/vectorcraft-0.24.1-macos-universal.dmg: satisfies its Designated Requirement
+/Users/runner/work/nerds-vector/nerds-vector/target/macos-package/dmg-check/NERDS Vector.app: valid on disk
+/Users/runner/work/nerds-vector/nerds-vector/target/macos-package/dmg-check/NERDS Vector.app: satisfies its Designated Requirement
+==> building /Users/runner/work/nerds-vector/nerds-vector/dist/release/vectorcraft-cli-0.24.1-macos-universal.zip
+/Users/runner/work/nerds-vector/nerds-vector/target/macos-package/vectorcraft-cli-0.24.1-macos-universal/vectorcraft-cli: replacing existing signature
+/Users/runner/work/nerds-vector/nerds-vector/target/macos-package/vectorcraft-cli-0.24.1-macos-universal/vectorcraft-cli: valid on disk
+/Users/runner/work/nerds-vector/nerds-vector/target/macos-package/vectorcraft-cli-0.24.1-macos-universal/vectorcraft-cli: satisfies its Designated Requirement
+vectorcraft-cli 0.24.1
+==> done
+-rw-r--r--@ 1 runner  staff   169M Nov 12 08:42 /Users/runner/work/nerds-vector/nerds-vector/dist/release/vectorcraft-0.24.1-macos-universal.dmg
+-rw-r--r--  1 runner  staff   128M Nov 12 08:43 /Users/runner/work/nerds-vector/nerds-vector/dist/release/vectorcraft-cli-0.24.1-macos-universal.zip
