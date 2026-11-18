@@ -1,0 +1,9 @@
+total 589196
+-rw-r--r-- 1 runner runner       425 Nov 18 17:53 SHA256SUMS.txt
+-rw-r--r-- 1 runner runner 176684157 Nov 18 17:53 vectorcraft-0.24.1-macos-universal.dmg
+-rw-r--r-- 1 runner runner 162849187 Nov 18 17:53 vectorcraft-0.24.1-windows-x64-portable.zip
+-rw-r--r-- 1 runner runner 129826816 Nov 18 17:53 vectorcraft-0.24.1-windows-x64.msi
+-rw-r--r-- 1 runner runner 133965200 Nov 18 17:53 vectorcraft-cli-0.24.1-macos-universal.zip
+10878 /home/runner/work/_temp/notes.md
+https://github.com/nerds-coach/nerds-vector/releases/tag/untagged-cdf418e268d043d70e74
+https://github.com/nerds-coach/nerds-vector/releases/tag/v0.24.1
